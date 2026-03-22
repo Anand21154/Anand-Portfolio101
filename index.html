@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Anand Sahani - B.Tech CSE Student skilled in Python, Java, Machine Learning, Web Development. IIT Guwahati AI/ML Intern.">
+    <meta name="keywords" content="Anand Sahani, B.Tech CSE, Python, Java, C++, Machine Learning, Web Development, IIT Guwahati, Software Developer">
+    <title>Anand Sahani - B.Tech CSE | Developer Portfolio</title>
+    <!-- Importing a sleek, modern font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Live Custom 3D Background Canvas -->
+    <div id="canvas-bg"></div>
+    
+    <nav class="navbar">
+        <div class="logo">Anand<span>Sahani</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button class="theme-toggle" aria-label="Toggle Dark Mode">🌙</button></li>
+        </ul>
+        <div class="hamburger" role="button" aria-label="Toggle navigation" aria-expanded="false" tabindex="0">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="card hero-text-card">
+                <h1>Hi, I'm <span class="highlight">Anand Sahani</span>.</h1>
+                <h2>B.Tech CSE Student building with <span class="typing">Python, Java & ML.</span></h2>
+                <p>Passionate Computer Science student seeking software development opportunities. Skilled in programming and ML. IIT Guwahati AI/ML Intern.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">See My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src=".\assets\WhatsApp Image 2026-03-22 at 19.44.44.jpeg" alt="Anand Sahani Avatar">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text card">
+                <h3>My Story</h3>
+                <p>B.Tech in Computer Science & Engineering (2023-2027) at Barak Valley Engineering College. AI/ML Intern at IIT Guwahati where I built e-waste detection model using ML. Social Impact Intern at Jamming Chord Foundation. Skilled in C, C++, Python, Java, Data Structures, Web Dev, Machine Learning. Managed family retail businesses gaining customer service & management experience. Silchar, Assam. +91 6003726273 | anandsahani2517@gmail.com</p>
+                <div style="margin-top: 1.5rem;">
+                    <a href="AnandSahani_InternshalaResume (2).pdf" class="btn btn-primary" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="skills card">
+                <h3>Superpowers</h3>
+                <div class="skill-tags">
+                    <span class="tag">C & C++</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">Data Structures</span>
+                    <span class="tag">Web Development</span>
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Git & GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Cool Stuff I've Built</h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card card">
+                <div class="project-img highlight-pink">
+                    <img src="./assets/color_pop_app.png" alt="Color Pop App Preview" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>E-Waste Detection ML</h3>
+                    <p>AI/ML model for detecting e-waste from images. Dataset collection, labeling, preprocessing, training at IIT Guwahati.</p>
+                    <div class="project-tech">
+                        <span>Python</span> <span>Machine Learning</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Live Demo</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card card">
+                <div class="project-img highlight-yellow">
+                    <img src="https://img.freepik.com/premium-vector/web-based-education-platform_629913-151.jpg" alt="Game Hub Preview" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Educational Web Platform</h3>
+                    <p>Web app for rural student engagement and attendance tracking inspired by social impact work.</p>
+                    <div class="project-tech">
+                        <span>HTML/CSS/JS</span> <span>Web Development</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Live Demo</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card card">
+                <div class="project-img highlight-green">
+                    <img src="./assets/eco_store.png" alt="Eco Store Preview" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Retail Management System</h3>
+                    <p>Inventory and sales tracking system for family retail businesses (grocery, electronics).</p>
+                    <div class="project-tech">
+                        <span>Java</span> <span>Data Structures</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Live Demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-container" style="text-align: center; margin-top: 3rem;">
+            <a href="#" class="btn btn-secondary">View All Projects</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-container card">
+            <!-- Web3Forms integrated -->
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="6b6e3ed6-d514-4175-9258-7e6456dd94ef">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="What should I call you?">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Where can I reach you?">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell me about your cool idea..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+            </form>
+            <div class="social-links">
+                <a href="mailto:anandsahani2517@gmail.com" class="social-btn card">📧 Email</a>
+                <a href="tel:+916003726273" class="social-btn card">📱 +91 6003726273</a>
+                <a href="#" class="social-btn card" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="#" class="social-btn card" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Three.js and Vanta.js for Custom Live 3D Background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
